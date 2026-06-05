@@ -71,7 +71,6 @@ Bloco simples: o botão **ENTRE** abre a Screen2 (player).
 
 ![Blocos Menu](PlayerTauz/Blocks_MenuTauz.png)
 
-> Projeto criado dia 30 de março de 2026
 ---
 
 #### Tela 2 — Player
@@ -101,6 +100,8 @@ Os blocos controlam toda a lógica do player:
 ```
 PlayerTauz/Player_Tauz.aia
 ```
+
+> Projeto criado dia 30 de março de 2026
 
 ---
 
@@ -133,6 +134,8 @@ Canvas em branco para desenho livre. Abaixo: slider de espessura e botões de co
 Paint/Paint.aia
 ```
 
+> Projeto criado dia 04 de abril de 2026
+
 ---
 
 ## 🚀 03 — Movendo Objetos (Foguete com Botões)
@@ -164,6 +167,8 @@ Fundo espacial com um foguete no centro e quatro botões de seta (esquerda, cima
 MovendoObjetos/Movendo_Objetos.aia
 ```
 
+> Projeto criado dia 7 de maio de 2026 de 2026
+
 ---
 
 ## ➕ 04 — Quiz Matemática
@@ -194,6 +199,8 @@ Interface simples com a operação exibida (ex: `1 + 1 =`), campo de resposta, p
 ```
 QuizMatematica/Quiz_Matematica.aia
 ```
+
+> Projeto criado dia 04 de maio de 2026
 
 ---
 
@@ -228,6 +235,8 @@ Canvas com fundo de sala de estar, contador de tempo (10s) e vidas (3) no topo, 
 MateMosquito/Mate_o_Mosquito.aia
 ```
 
+> Projeto criado dia 11 de maio de 2026
+
 ---
 
 ## 🚀 06 — Foguete com Acelerômetro
@@ -260,6 +269,8 @@ Canvas com foguete sprite e labels mostrando os valores X, Y e Z do acelerômetr
 ```
 MateMosquito/Mate_o_Mosquito.aia
 ```
+
+> Projeto criado dia 25 de maio de 2026
 
 ---
 
