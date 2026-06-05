@@ -55,7 +55,7 @@ ExperimentosMIT/
 
 ## 🎵 01 — Player Tauz
 
-**Meu primeiro projeto.** Um player de música completo com tema visual inspirado no artista Tauz, chamado VibeHouse.
+**Meu primeiro projeto.** Um player de música completo com tema visual inspirado em músicas do estilo House, chamado VibeHouse.
 
 ### Telas
 
@@ -63,13 +63,13 @@ ExperimentosMIT/
 
 Tela inicial com fundo temático e botão para entrar no player.
 
-![Tela Entrada](01-player-tauz/tela_entrada.png)
+![Tela Menu](PlayerTauz/Tela_MenuTauz.png)
 
 #### Blocos — Tela 1
 
 Bloco simples: o botão **ENTRE** abre a Screen2 (player).
 
-![Blocos Tela 1](01-player-tauz/blocos_tela1.png)
+![Blocos Menu](PlayerTauz/Blocks_MenuTauz.png)
 
 ---
 
@@ -77,7 +77,7 @@ Bloco simples: o botão **ENTRE** abre a Screen2 (player).
 
 Tela principal com controles de reprodução, slider de progresso, botões de próxima e anterior, e exibição da capa da música atual.
 
-![Tela Player](01-player-tauz/tela_player.png)
+![Tela Player](PlayerTauz/Tela2_PlayerTauz.png)
 
 #### Blocos — Tela 2
 
@@ -91,15 +91,14 @@ Os blocos controlam toda a lógica do player:
 - **Slider:** quando o usuário arrasta, reposiciona a música no ponto selecionado
 - **Voltar:** para o tocador e o som ambiente, e retorna para a Screen1
 
-![Blocos Player](01-player-tauz/blocos.png)
+![Blocos Player](PlayerTauz/Blocks_PlayerTauz.png)
 
 ---
 
 ### 🛠️ Arquivo do Projeto
 
-> ⬇️ *Em breve*
 ```
-01-player-tauz/projeto.aia
+PlayerTauz/Player_Tauz.aia
 ```
 
 ---
@@ -112,7 +111,7 @@ App de desenho com canvas livre, paleta de cores e controle de espessura do pinc
 
 Canvas em branco para desenho livre. Abaixo: slider de espessura e botões de cor (preto, azul, vermelho, amarelo, verde, ciano, magenta, laranja, branco/borracha) e botão de limpar.
 
-![Tela Paint](02-paint/tela.png)
+![Tela Paint](Paint/Tela_Paint.png)
 
 ### Blocos
 
@@ -123,15 +122,14 @@ Canvas em branco para desenho livre. Abaixo: slider de espessura e botões de co
 - **Borracha:** define a cor como branco, simulando apagar
 - **Limpar:** chama `Canvas.Clear` para resetar o desenho
 
-![Blocos Paint](02-paint/blocos.png)
+![Blocos Paint](Paint/Blocks_Paint.png)
 
 ---
 
 ### 🛠️ Arquivo do Projeto
 
-> ⬇️ *Em breve*
 ```
-02-paint/projeto.aia
+Paint/Paint.aia
 ```
 
 ---
@@ -144,7 +142,7 @@ Foguete controlado por botões direcionais na tela. O sprite muda de imagem conf
 
 Fundo espacial com um foguete no centro e quatro botões de seta (esquerda, cima, baixo, direita) na parte inferior.
 
-![Tela Movendo Objetos](03-movendo-objetos/tela.png)
+![Tela Movendo Objetos](MovendoObjetos/Tela_MovendoObj.png)
 
 ### Blocos
 
@@ -155,15 +153,14 @@ Fundo espacial com um foguete no centro e quatro botões de seta (esquerda, cima
 - **Botão Baixo:** muda a imagem para `Foguete_Baixo.png` e chama `alterarsprite` com direção 270°
 - **Foguete.Dragged:** permite arrastar o sprite diretamente com o dedo
 
-![Blocos Movendo Objetos](03-movendo-objetos/blocos.png)
+![Blocos Movendo Objetos](MovendoObjetos/Blocks_FogueteBtn.png)
 
 ---
 
 ### 🛠️ Arquivo do Projeto
 
-> ⬇️ *Em breve*
 ```
-03-movendo-objetos/projeto.aia
+MovendoObjetos/Movendo_Objetos.aia
 ```
 
 ---
@@ -176,7 +173,8 @@ Quiz de operações matemáticas com geração aleatória de contas e sistema de
 
 Interface simples com a operação exibida (ex: `1 + 1 =`), campo de resposta, placar no topo e botão Responder.
 
-![Tela Quiz Matemática](04-quiz-matematica/tela.png)
+![Tela Quiz](QuizMatematica/Tela_QuizMat.png)
+
 
 ### Blocos
 
@@ -186,15 +184,14 @@ Interface simples com a operação exibida (ex: `1 + 1 =`), campo de resposta, p
 - **Próxima.Click:** limpa o campo, esconde o feedback e chama `inicializarOperações` para nova rodada
 - **Pular.Click:** subtrai 10 pontos e vai para a próxima operação sem exigir resposta
 
-![Blocos Quiz Matemática](04-quiz-matematica/blocos.png)
+![Blocos Quiz](QuizMatematica/Blocks_QuizMat.png)
 
 ---
 
 ### 🛠️ Arquivo do Projeto
 
-> ⬇️ *Em breve*
 ```
-04-quiz-matematica/projeto.aia
+QuizMatematica/Quiz_Matematica.aia
 ```
 
 ---
@@ -207,7 +204,7 @@ Jogo de reflexo onde um mosquito se move aleatoriamente pela tela e o jogador de
 
 Canvas com fundo de sala de estar, contador de tempo (10s) e vidas (3) no topo, e botão Iniciar.
 
-![Tela Mate o Mosquito](05-mate-o-mosquito/tela.png)
+![Tela Mate Mosquito](MateMosquito/Tela_Moskito.png)
 
 ### Blocos
 
@@ -220,15 +217,14 @@ Canvas com fundo de sala de estar, contador de tempo (10s) e vidas (3) no topo, 
 - **FimdeJogo:** para tudo, esconde o mosquito, exibe dialog "Fim de Jogo! — Jogar Novamente"
 - **Notifier.AfterChoosing:** se o jogador escolhe "Jogar Novamente", reseta vidas e estado para uma nova partida
 
-![Blocos Mate o Mosquito](05-mate-o-mosquito/blocos.png)
+![Blocos Mate Mosquito](MateMosquito/Blocks_Moskito.png)
 
 ---
 
 ### 🛠️ Arquivo do Projeto
 
-> ⬇️ *Em breve*
 ```
-05-mate-o-mosquito/projeto.aia
+MateMosquito/Mate_o_Mosquito.aia
 ```
 
 ---
@@ -241,7 +237,7 @@ Foguete controlado pela inclinação física do celular usando o sensor acelerô
 
 Canvas com foguete sprite e labels mostrando os valores X, Y e Z do acelerômetro em tempo real. Botões Iniciar e Parar.
 
-![Tela Foguete Acelerômetro](06-foguete-acelerometro/tela.png)
+![Tela Acelerômetro](MovendoObjetos2/Tela_Accel.png)
 
 ### Blocos
 
@@ -254,15 +250,14 @@ Canvas com foguete sprite e labels mostrando os valores X, Y e Z do acelerômetr
 - **Iniciar.Click:** define `JogoIniciado = true`, ativando o movimento
 - **Parar.Click:** define `JogoIniciado = false`, reseta os labels para 0 e retorna o foguete à posição central
 
-![Blocos Foguete Acelerômetro](06-foguete-acelerometro/blocos.png)
+![Blocos Acelerômetro](MovendoObjetos2/Blocks_FogueteAccel.png)
 
 ---
 
 ### 🛠️ Arquivo do Projeto
 
-> ⬇️ *Em breve*
 ```
-06-foguete-acelerometro/projeto.aia
+MateMosquito/Mate_o_Mosquito.aia
 ```
 
 ---
