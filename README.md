@@ -71,6 +71,7 @@ Bloco simples: o botão **ENTRE** abre a Screen2 (player).
 
 ![Blocos Menu](PlayerTauz/Blocks_MenuTauz.png)
 
+> Projeto criado dia 30 de março de 2026
 ---
 
 #### Tela 2 — Player
