@@ -98,7 +98,7 @@ Os blocos controlam toda a lógica do player:
 ### 🛠️ Arquivo do Projeto
 
 ```
-PlayerTauz/Player_Tauz.aia
+📥 [Baixar Projeto (.aia)](PlayerTauz/Player_Tauz.aia)
 ```
 
 ---
