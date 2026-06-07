@@ -5,7 +5,7 @@
 ![MIT App Inventor](https://img.shields.io/badge/Engine-MIT%20App%20Inventor-blue)
 ![Plataforma](https://img.shields.io/badge/Plataforma-Android-green)
 ![Projetos](https://img.shields.io/badge/Projetos-6-orange)
-![Status](https://img.shields.io/badge/Status-Em%20Andamento-yellow)
+![Status](https://img.shields.io/badge/Status-Concluído-brightgreen)
 
 Repositório com projetos desenvolvidos no **MIT App Inventor** para Android. Todos os apps foram criados do zero, sem uso de IA — com o objetivo de treinar lógica de programação visual com blocos.
 
@@ -115,6 +115,8 @@ Projects → Import project (.aia) → PlayerTauz/Player_Tauz.aia
 
 ![Banner Paint](assets/banner_paint.png)
 
+![Status](https://img.shields.io/badge/Status-Concluído-brightgreen)
+
 App de desenho com canvas livre, paleta de cores e controle de espessura do pincel.
 
 ### Tela
@@ -148,6 +150,8 @@ Projects → Import project (.aia) → Paint/Paint.aia
 
 ![Banner Quiz Matemática](assets/banner_quizmat.png)
 
+![Status](https://img.shields.io/badge/Status-Concluído-brightgreen)
+
 Quiz de operações matemáticas com geração aleatória de contas e sistema de pontuação.
 
 ### Tela
@@ -179,6 +183,8 @@ Projects → Import project (.aia) → QuizMatematica/Quiz_Matematica.aia
 ## 🚀 04 — Movendo Objetos (Foguete com Botões)
 
 ![Banner Movendo Objetos](assets/banner_movendobtn.png)
+
+![Status](https://img.shields.io/badge/Status-Concluído-brightgreen)
 
 Foguete controlado por botões direcionais na tela. O sprite muda de imagem conforme a direção do movimento.
 
@@ -213,6 +219,8 @@ Projects → Import project (.aia) → MovendoObjetos/Movendo_Objetos.aia
 
 ![Banner Mate o Mosquito](assets/banner_mosquito.png)
 
+![Status](https://img.shields.io/badge/Status-Concluído-brightgreen)
+
 Jogo de reflexo onde um mosquito se move aleatoriamente pela tela e o jogador deve tocá-lo antes que o tempo acabe.
 
 ### Tela
@@ -246,6 +254,8 @@ Projects → Import project (.aia) → MateMosquito/Mate_o_Mosquito.aia
 ## 🚀 06 — Foguete com Acelerômetro
 
 ![Banner Acelerômetro](assets/banner_acelerometro.png)
+
+![Status](https://img.shields.io/badge/Status-Concluído-brightgreen)
 
 Foguete controlado pela inclinação física do celular usando o sensor acelerômetro.
 
