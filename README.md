@@ -32,8 +32,11 @@ Repositório com projetos desenvolvidos no **MIT App Inventor** para Android. To
 Este repositório reúne os primeiros projetos que desenvolvi no MIT App Inventor, cada um criado para aprender e praticar um conceito diferente de programação em blocos — desde players de música e jogos de reflexo até sensores do celular.
 
 **Ferramenta:** MIT App Inventor
+
 **Plataforma:** Android
+
 **Total de projetos:** 6
+
 **Período:** Março a Maio de 2026
 
 ---
