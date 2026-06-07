@@ -44,6 +44,7 @@ Este repositório reúne os primeiros projetos que desenvolvi no MIT App Invento
 ## 📂 Estrutura do Repositório
 
 ```
+
 ExperimentosMIT/
 │
 ├── MateMosquito/
@@ -52,8 +53,10 @@ ExperimentosMIT/
 ├── Paint/
 ├── PlayerTauz/
 ├── QuizMatematica/
+├── assets/
 ├── LICENSE
 └── README.md
+
 ```
 
 ---
