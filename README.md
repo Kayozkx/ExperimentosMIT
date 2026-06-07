@@ -63,6 +63,8 @@ ExperimentosMIT/
 
 ![Banner Player Tauz](assets/banner_playertauz.png)
 
+![Status](https://img.shields.io/badge/Status-Concluído-brightgreen)
+
 **Meu primeiro projeto.** Um player de música completo com tema visual inspirado no estilo House, chamado VibeHouse.
 
 ### Telas
